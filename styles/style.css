@@ -20,6 +20,7 @@ header > h2 {
     font-size: 0.8em;
     text-align: center;
     color: aliceblue;
+    margin-bottom: 30px;
 }
 
 nav > a {
@@ -30,8 +31,15 @@ nav > a {
     text-align: left;
 }
 
+a {
+    text-decoration: none;
+    color: #000091;
+}
+
+
 nav > a:hover {
     background-color: #000091;
+    text-decoration: underline;
 }
 
 p > a::after {
@@ -47,11 +55,29 @@ section {
     background-color: white;
     width: 50%;
     margin: auto;
+    padding: 10px;
+}
+
+article > p {
+    text-indent: 25px;
+}
+
+.knowmore {
+    background-color: #98b9ff;
+    border-radius: 15px;
     padding: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.219);
 }
 
 .knowmore > h2 {
-    background-color: #0000F5;
+    background-image: linear-gradient(to right, rgba(0, 158, 250 , 0.5) 5%, rgba(11, 78, 222, 0.3) 20%, rgb(4, 4, 153));
+    color: white;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+    margin: -5px;
+    outline: auto white 15px;
+    
 }
 
 footer {
