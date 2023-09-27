@@ -62,6 +62,14 @@ article > p {
     text-indent: 25px;
 }
 
+p {
+    text-indent: 35px;
+}
+
+strong {
+    color: #000091;
+}
+
 .knowmore {
     background-color: #98b9ff;
     border-radius: 15px;
