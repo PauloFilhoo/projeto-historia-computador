@@ -16,6 +16,11 @@ h2.special {
     background-image: linear-gradient(to right, rgba(0, 158, 250, 0.5), rgba(11, 78, 222, 0.3), rgba(0, 0, 245, 0.0));
 }
 
+article > picture {
+    justify-content: center;
+    text-align: center;
+}
+
 header > h2 {
     font-size: 0.8em;
     text-align: center;
