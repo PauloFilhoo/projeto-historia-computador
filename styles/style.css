@@ -1,106 +1,39 @@
 @charset "UTF-8";
 
+
+:root {
+    --amarelo-claro: #F7C31B;
+    --azul-claro: #2D42B5;
+    --azul-escuro: #0025f5;
+    --amarelo-escuro: #a08635;
+    --roxo: #3b4375;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
-    background-image: linear-gradient(#009EFA, #0B4EDE, #0000F5);
-    color: whitesmoke;
-    padding: 3px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.450);
-}
-
-h1 {
-    text-align: center;
-}
-
-h2.special {
-    color: #002b44;
-    background-image: linear-gradient(to right, rgba(0, 158, 250, 0.5), rgba(11, 78, 222, 0.3), rgba(0, 0, 245, 0.0));
-}
-
-article > picture {
-    justify-content: center;
-    text-align: center;
-}
-
-header > h2 {
-    font-size: 0.8em;
-    text-align: center;
-    color: aliceblue;
+    background-color: var(--amarelo-claro);
+    display: flex;
+    height: 95px;
     margin-bottom: 30px;
+    padding: 15px;
 }
 
-nav > a {
-    color: whitesmoke;
-    text-decoration: none;
-    margin-left: 10px;
-    padding: 2px;
-    text-align: left;
+header > h1 {
+    font-size: 30px;
+    text-align: center;   
 }
 
-a {
-    text-decoration: none;
-    color: #000091;
+header > p {
+    font-size: 15px;
 }
 
-
-nav > a:hover {
-    background-color: #000091;
-    text-decoration: underline;
-}
-
-p > a::after {
-    content: '🔗';
-}
-
-body {
-    margin: 0px;
-    background-color: #009EFA;
-}
-
-section {
-    background-color: white;
-    width: 50%;
+main {
+    min-width: 400px;
+    max-width: 1270px;
     margin: auto;
-    padding: 10px;
-}
-
-article > p {
-    text-indent: 25px;
-}
-
-p {
-    text-indent: 35px;
-}
-
-strong {
-    color: #000091;
-}
-
-.knowmore {
-    background-color: #98b9ff;
-    border-radius: 15px;
-    padding: 5px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.219);
-}
-
-.knowmore > h2 {
-    background-image: linear-gradient(to right, rgba(0, 158, 250 , 0.5) 5%, rgba(11, 78, 222, 0.3) 20%, rgb(4, 4, 153));
-    color: white;
-    padding: 5px;
-    border-radius: 15px 15px 0px 0px;
-    padding: 10px;
-    margin: -5px;
-    outline: auto white 15px;
-    
-}
-
-footer {
-    background-color: #0000F5;
-    text-align: center;
-    padding: 3px;
-}
-
-footer > p {
-    margin: 0px;
-    padding: 4px;
-    color: whitesmoke;
+    text-indent: 10px;
 }
