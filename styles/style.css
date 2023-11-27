@@ -1,2 +1,41 @@
 @charset "UTF-8";
 
+@charset "UTF-8";
+
+
+:root {
+    --amarelo-claro: #F7C31B;
+    --azul-claro: #2D42B5;
+    --azul-escuro: #0025f5;
+    --amarelo-escuro: #a08635;
+    --roxo: #3b4375;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--amarelo-claro);
+    display: flex;
+    height: 95px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+header > h1 {
+    font-size: 30px;
+    text-align: center;   
+}
+
+header > p {
+    font-size: 15px;
+}
+
+main {
+    min-width: 400px;
+    max-width: 1270px;
+    margin: auto;
+    text-indent: 10px;
+}
